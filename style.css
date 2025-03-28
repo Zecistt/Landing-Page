@@ -1,0 +1,138 @@
+/* style.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #111111;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.hero {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.hero .btn {
+  background-color: #ffa94d;
+  color: #111;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.hero .btn:hover {
+  background-color: #ff922b;
+}
+
+.programi {
+  background-color: #f8f8f8;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 1rem 0;
+  display: inline-block;
+  width: 300px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.card .btn {
+  background-color: #ffa94d;
+  color: #111;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.card .btn:hover {
+  background-color: #ff922b;
+}
+
+.kuvar {
+  background-color: #fff;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.kuvar img {
+  width: 250px;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.kuvar .btn {
+  background-color: #ffa94d;
+  color: #111;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.why-me {
+  background-color: #f8f8f8;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.why-me ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.why-me li {
+  margin: 0.5rem 0;
+  font-weight: 500;
+}
+
+.cta {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.cta .btn {
+  background-color: #ffa94d;
+  color: #111;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  display: inline-block;
+}
+
+.cta .btn:hover {
+  background-color: #ff922b;
+}
