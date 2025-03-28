@@ -23,7 +23,7 @@ body {
   background-color: #111;
   color: white;
   text-align: center;
-  padding: 5rem 2rem;
+  padding: 10rem 2rem;
 }
 
 .hero .btn {
@@ -64,7 +64,7 @@ body {
   margin-bottom: 1rem;
 }
 
-.card .btn {
+.card a.btn {
   background-color: #ffa94d;
   color: #111;
   padding: 0.7rem 1.5rem;
